@@ -1,0 +1,31 @@
+#dragArea{
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0 20px 0 black ;
+    margin-top:40px; 
+    .dragContent{
+        padding: 40px;
+        border: 4px dashed black;
+        display: flex;
+        flex-wrap: wrap;            
+    }
+}
+#dropArea{
+    padding: 40px ;
+    margin-top: 50px;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.drag-item{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    width: calc(100%/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+} 

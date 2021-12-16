@@ -1,0 +1,48 @@
+#dragArea {
+  width: 100%;
+  padding: 50px;
+  -webkit-box-shadow: 0 0 20px 0 black;
+          box-shadow: 0 0 20px 0 black;
+  margin-top: 40px;
+}
+
+#dragArea .dragContent {
+  padding: 40px;
+  border: 4px dashed black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#dropArea {
+  padding: 40px;
+  margin-top: 50px;
+  width: 100%;
+  border: 2px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.drag-item {
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid black;
+  width: calc(100%/7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=stytle.css.map */
